@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Silver;
+    src: url(Assets/fontStyle/Silver.ttf)format("truetype");
+}
+
+html,
+body {
+    font-size: 36px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000000;
+    font-family: Silver, sans-serif;
+    color: #FFFFFF;
+}
+
+#container {
+    display: flex;
+}
+
+#title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
