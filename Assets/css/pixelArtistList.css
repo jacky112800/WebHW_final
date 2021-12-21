@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Silver;
+    src: url(Assets/fontStyle/Silver.ttf)format("truetype");
+}
+
+html,
+body {
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000000;
+    font-family: Silver, sans-serif;
+    color: #FFFFFF;
+}
+
+.header{
+}
+#webMap{
+    border-bottom: 4px solid #FFFFFF;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    height: 100%;
+    padding-top: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.main {
+    height: 100%;
+    text-align:center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#pixelArtistListTitle{
+    font-size: 56px;
+    border-bottom: #43DFFA solid 4px;
+    margin-bottom: auto;
+    
+}
+#lineBr{
+    border-top: #FFFFFF solid 2px;
+    border-bottom: #FF307C solid 4px;
+    margin: auto;
+}
