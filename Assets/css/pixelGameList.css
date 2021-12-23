@@ -48,7 +48,8 @@ a {
     font-size: 56px;
     border-bottom: #43DFFA solid 4px;
     margin-bottom: auto;
-    
+    padding-bottom: 10px;
+
 }
 #lineBr{
     border-top: #FFFFFF solid 2px;
