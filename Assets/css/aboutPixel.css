@@ -1,6 +1,6 @@
 @font-face {
     font-family: Silver;
-    src: url(Assets/fontStyle/Silver.ttf)format("truetype");
+    src: url(/Assets/fontStyle/Silver.ttf)format("truetype");
 }
 
 html,
@@ -10,13 +10,13 @@ body {
     width: 100%;
     margin: 0 auto;
     background-color: #000000;
-    font-family: Silver, sans-serif;
+    font-family: Silver;
     color: #FFFFFF;
 }
 
-.header{
-}
-#webMap{
+.header {}
+
+#webMap {
     border-bottom: 4px solid #FFFFFF;
 }
 
@@ -37,21 +37,60 @@ a {
     text-decoration: none;
     color: #FFFFFF;
 }
-.main {
+
+.sideLeft {
+    width: 120px;
     height: 100%;
-    text-align:center;
-    padding-left: 5%;
-    padding-right: 5%;
+    position: relative;
+    text-align: center;
+    float: left;
+    background-color: #000000;
 }
 
-#aboutPixelTitle{
+.sideRight {
+    width: 120px;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    float: right;
+    background-color: #000000;
+}
+
+.main {
+    height: 100%;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#aboutPixelTitle {
     font-size: 56px;
     border-bottom: #43DFFA solid 4px;
+    margin-left: auto - 120px;
+    margin-right: auto - 120px;
     margin-bottom: auto;
     padding-bottom: 10px;
 }
-#lineBr{
+
+#lineBr {
     border-top: #FFFFFF solid 2px;
     border-bottom: #FF307C solid 4px;
-    margin: auto;
+    margin-left: auto - 120px;
+    margin-right: auto - 120px;
+}
+
+#backHome {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+}
+
+h3 {
+    font-size: 36px;
+}
+
+.foot {
+    border-top: solid 4px #FFFFFF;
+    height: 20px;
 }

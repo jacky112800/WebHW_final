@@ -1,6 +1,6 @@
 @font-face {
     font-family: Silver;
-    src: url(Assets/fontStyle/Silver.ttf)format("truetype");
+    src: url(/Assets/fontStyle/Silver.ttf)format("truetype");
 }
 
 html,
@@ -14,9 +14,23 @@ body {
     color: #FFFFFF;
 }
 
-.header{
+.header {}
+
+.sideLeft {
+    width: 120px;
+    text-align: center;
+    float: left;
+    background-color: #000000;
 }
-#webMap{
+
+.sideRight {
+    width: 120px;
+    text-align: center;
+    float: right;
+    background-color: #000000;
+}
+
+#webMap {
     border-bottom: 4px solid #FFFFFF;
 }
 
@@ -40,34 +54,44 @@ a {
 
 .main {
     height: 100%;
+
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: -40px;
 }
 
-#logo{
+#logo {
     padding-top: 48px;
     padding-bottom: 48px;
-    display:block; 
-    margin:auto;
+    display: block;
+    margin: auto;
 }
 
-#pixelNewsTitle{
+#pixelNewsTitle {
     font-size: 48px;
-    text-align:center;
-    margin:auto;
+    text-align: center;
+    margin: auto;
     padding-bottom: 10px;
 
 }
 
 
-.tdNews{
+.tdNews {
     font-size: 24px;
     width: 360px;
     padding-top: 12px;
-    text-align:center;
+    text-align: center;
 }
 
-.borderNewsFrist{
+.borderNewsFrist {
     border-bottom: 4px solid #FFFFFF;
 }
-.borderNews{
+
+.borderNews {
     border-bottom: 2px solid #FFFFFF;
+}
+
+.foot {
+    border-top: solid 4px #FFFFFF;
+    height: 20px;
 }
