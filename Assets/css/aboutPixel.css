@@ -83,14 +83,14 @@ a {
     width: 100%;
     position: absolute;
     bottom: 0;
-
 }
 
 h3 {
     font-size: 36px;
 }
 
-.foot {
-    border-top: solid 4px #FFFFFF;
-    height: 20px;
+p {
+    font-size: 28px;
 }
+
+.foot {}

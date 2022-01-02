@@ -49,6 +49,7 @@ a {
 .sideRight {
     width: 120px;
     height: 100%;
+    position: relative;
     text-align: center;
     float: right;
 }
@@ -59,7 +60,6 @@ a {
     margin-left: 120px;
     margin-right: 120px;
     margin-bottom: -40px;
-
 }
 
 #howToDrawPixelTitle {
@@ -69,7 +69,6 @@ a {
     margin-right: auto - 120px;
     margin-bottom: auto;
     padding-bottom: 10px;
-
 }
 
 #lineBr {
@@ -83,14 +82,26 @@ a {
     width: 100%;
     position: absolute;
     bottom: 0;
+}
 
+#toResorce {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 h3 {
     font-size: 36px;
 }
 
-.foot {
-    border-top: solid 4px #FFFFFF;
-    height: 20px;
+p {
+    font-size: 28px;
 }
+
+#paintSoftWare,
+td {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.foot {}

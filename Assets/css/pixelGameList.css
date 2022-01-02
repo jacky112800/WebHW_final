@@ -59,7 +59,6 @@ a {
     margin-left: 120px;
     margin-right: 120px;
     margin-bottom: -40px;
-
 }
 
 #pixelGameListTitle {
@@ -69,7 +68,6 @@ a {
     margin-right: auto - 120px;
     margin-bottom: auto;
     padding-bottom: 10px;
-
 }
 
 #lineBr {
@@ -79,18 +77,42 @@ a {
     margin-right: auto - 120px;
 }
 
+#pxBr {
+    padding-bottom: 20px;
+}
+
 #backHome {
     width: 100%;
     position: absolute;
     bottom: 0;
+}
 
+#gameTable,
+.tdName,
+.tdList {
+    border: 4px solid #FFFFFF;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.tdName {
+    font-size: 24px;
+    width: 360px;
+    text-align: center;
+}
+
+.tdList {
+    font-size: 24px;
+    width: 720px;
+    text-align: center;
 }
 
 h3 {
     font-size: 36px;
 }
 
-.foot {
-    border-top: solid 4px #FFFFFF;
-    height: 20px;
+p {
+    font-size: 36px;
 }
+
+.foot {}

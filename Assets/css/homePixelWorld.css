@@ -18,16 +18,18 @@ body {
 
 .sideLeft {
     width: 120px;
+    height: 100%;
+    position: relative;
     text-align: center;
     float: left;
-    background-color: #000000;
 }
 
 .sideRight {
     width: 120px;
+    height: 100%;
+    position: relative;
     text-align: center;
     float: right;
-    background-color: #000000;
 }
 
 #webMap {
@@ -54,7 +56,6 @@ a {
 
 .main {
     height: 100%;
-
     margin-left: 120px;
     margin-right: 120px;
     margin-bottom: -40px;
@@ -72,9 +73,7 @@ a {
     text-align: center;
     margin: auto;
     padding-bottom: 10px;
-
 }
-
 
 .tdNews {
     font-size: 24px;
@@ -92,6 +91,21 @@ a {
 }
 
 .foot {
-    border-top: solid 4px #FFFFFF;
-    height: 20px;
+    text-align: center;
+}
+
+#backHome {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#toAboutMaster {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+h3 {
+    font-size: 36px;
 }
